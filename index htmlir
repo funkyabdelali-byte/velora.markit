@@ -3,115 +3,116 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Velora Markit | VR Box</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Velora Markit | نظارات الواقع الافتراضي IR BOX</title>
 
 <!-- Meta Pixel -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}
-(window,document,'script',
+(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 
-fbq('init','1133831362539215');
-fbq('track','PageView');
-fbq('track','ViewContent');
+fbq('init', '1133831362539215');
+fbq('track', 'PageView');
 </script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1133831362539215&ev=PageView&noscript=1"/>
+</noscript>
 
 <style>
 *{box-sizing:border-box}
 body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#f5f6fa;
-color:#222;
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#f4f5f7;
+ color:#222
 }
 header{
-background:#111827;
-color:white;
-padding:20px;
-text-align:center;
+ background:#172b24;
+ color:white;
+ text-align:center;
+ padding:25px 15px
 }
-.logo{font-size:25px;font-weight:bold;color:#fff}
-header p{margin:7px 0 0;color:#d1d5db}
-.container{
-max-width:600px;
-margin:20px auto;
-padding:15px;
+header h1{margin:0;font-size:29px}
+header p{margin:8px 0 0}
+.container{max-width:600px;margin:auto;padding:16px}
+.product,form{
+ background:white;
+ border-radius:15px;
+ padding:18px;
+ margin-bottom:18px;
+ box-shadow:0 2px 12px #00000010
 }
-.card{
-background:white;
-border-radius:16px;
-padding:20px;
-box-shadow:0 3px 15px #0001;
+.product{text-align:center}
+.product img{
+ width:100%;
+ max-width:440px;
+ height:auto;
+ object-fit:contain;
+ border-radius:12px
 }
-.product-image{
-width:100%;
-border-radius:12px;
-background:#e9edf5;
-min-height:220px;
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:100px;
-}
-h1{text-align:center;font-size:25px}
-.description{
-line-height:2;
-text-align:center;
-color:#555;
-}
+.product h2{font-size:24px;margin:16px 0}
 .price{
-text-align:center;
-font-size:30px;
-font-weight:bold;
-color:#e65b18;
-margin:20px;
+ font-size:30px;
+ font-weight:bold;
+ color:#167348;
+ margin:15px
+}
+.description{
+ line-height:1.9;
+ color:#555;
+ font-size:16px
 }
 .features{
-line-height:2.3;
-background:#f7f7f7;
-padding:15px;
-border-radius:10px;
-}
-form{margin-top:25px}
-input{
-width:100%;
-padding:14px;
-margin:8px 0;
-border:1px solid #ddd;
-border-radius:8px;
-font-size:16px;
+ text-align:right;
+ line-height:2;
+ background:#f5f8f6;
+ padding:12px;
+ border-radius:10px
 }
 button{
-width:100%;
-padding:16px;
-background:#e65b18;
-color:white;
-border:0;
-border-radius:10px;
-font-size:19px;
-font-weight:bold;
-margin-top:12px;
-cursor:pointer;
+ background:#176b49;
+ color:white;
+ border:0;
+ border-radius:10px;
+ padding:15px;
+ font-size:18px;
+ font-weight:bold;
+ width:100%;
+ cursor:pointer
 }
-button:disabled{opacity:.6}
-.delivery{
-text-align:center;
-color:green;
-font-weight:bold;
-margin:15px;
+label{
+ display:block;
+ margin-top:14px;
+ font-weight:bold
+}
+input,textarea{
+ width:100%;
+ padding:13px;
+ margin-top:7px;
+ border:1px solid #ccc;
+ border-radius:8px;
+ font-size:16px
+}
+.note{
+ text-align:center;
+ color:#666;
+ font-size:13px;
+ line-height:1.8
 }
 footer{
-text-align:center;
-padding:20px;
-color:#777;
+ text-align:center;
+ background:#172b24;
+ color:white;
+ padding:20px
 }
 </style>
 </head>
@@ -119,123 +120,170 @@ color:#777;
 <body>
 
 <header>
-<div class="logo">Velora Markit</div>
-<p>مرحبا بكم في متجرنا</p>
+ <h1>Velora Markit</h1>
+ <p>اكتشف عالماً جديداً مع نظارات الواقع الافتراضي</p>
 </header>
 
-<div class="container">
-<div class="card">
+<main class="container">
 
-<div class="product-image">🥽</div>
+<section class="product">
 
-<h1>نظارات الواقع الافتراضي VR Box</h1>
+ <img src="vr-box-1.jpg"
+ alt="نظارات الواقع الافتراضي IR BOX"
+ onerror="this.style.display='none';document.getElementById('imageNote').style.display='block'">
 
-<p class="description">
-اكتشف تجربة مشاهدة مختلفة مع نظارات الواقع الافتراضي VR Box.
-استمتع بمشاهدة الفيديوهات والألعاب ثلاثية الأبعاد
-باستعمال هاتفك المتوافق.
-</p>
+ <p id="imageNote" style="display:none;color:#a33">
+ تعذر عرض الصورة. تأكد من وجود vr-box-1.jpg بجانب index.html
+ </p>
 
-<div class="price">180 درهم فقط</div>
+ <h2>نظارات الواقع الافتراضي IR BOX</h2>
 
-<div class="features">
-<strong>مميزات المنتج:</strong><br>
-✓ تجربة مشاهدة الواقع الافتراضي<br>
-✓ مناسبة للفيديوهات والألعاب المتوافقة<br>
-✓ تستعمل مع الهاتف المتوافق<br>
-✓ سهلة الاستعمال
-</div>
+ <p class="description">
+ استمتع بتجربة مشاهدة مختلفة مع نظارات الواقع الافتراضي IR BOX.
+ اكتشف عالماً غامراً واستمتع بمحتوى الواقع الافتراضي.
+ </p>
 
-<p class="delivery">التوصيل مجاني</p>
+ <div class="features">
+  <strong>مميزات المنتج:</strong><br>
+  ✓ تصميم عملي ومريح<br>
+  ✓ تجربة مشاهدة بالواقع الافتراضي<br>
+  ✓ مناسبة للاستمتاع بمحتوى VR المتوافق<br>
+  ✓ بدون جهاز تحكم
+ </div>
 
-<h2 style="text-align:center">اطلب الآن</h2>
+ <p class="price">180 درهم</p>
 
-<form id="orderForm">
+ <p class="note">اطلب الآن واملأ معلوماتك لتأكيد الطلب.</p>
 
-<input name="name" placeholder="الاسم الكامل" required>
+</section>
 
-<input name="phone" type="tel"
-placeholder="رقم الهاتف" required>
+<form id="order">
 
-<input name="city" placeholder="المدينة" required>
+ <h2>معلومات الطلب</h2>
 
-<input name="address" placeholder="العنوان بالتفصيل" required>
+ <label for="name">الاسم الكامل</label>
+ <input id="name" autocomplete="name" required
+ placeholder="دخل الاسم الكامل">
 
-<input name="quantity" type="number"
-value="1" min="1" max="10" required>
+ <label for="phone">رقم الهاتف</label>
+ <input id="phone" type="tel" autocomplete="tel"
+ required placeholder="06XXXXXXXX">
 
-<button type="submit" id="submitBtn">
-تأكيد الطلب الآن
-</button>
+ <label for="city">المدينة</label>
+ <input id="city" autocomplete="address-level2"
+ required placeholder="مثلاً: الدار البيضاء">
+
+ <label for="address">العنوان بالتفصيل</label>
+ <textarea id="address" rows="3"
+ autocomplete="street-address"
+ required placeholder="الحي، الزنقة، رقم الدار أو علامة قريبة"></textarea>
+
+ <label for="quantity">الكمية</label>
+ <input id="quantity" type="number" min="1" max="10"
+ value="1" required>
+
+ <p class="price" id="total">المجموع: 180 درهم</p>
+
+ <p class="note">راجع معلوماتك قبل تأكيد الطلب.</p>
+
+ <button type="submit">تأكيد الطلب عبر واتساب</button>
+
+ <p id="status" class="note" aria-live="polite"></p>
 
 </form>
-
-<p id="message" style="text-align:center"></p>
-
-</div>
-</div>
+</main>
 
 <footer>
-Velora Markit © 2026
+ <strong>Velora Markit</strong>
+ <p>شكراً على ثقتكم بنا</p>
 </footer>
 
 <script>
-const SCRIPT_URL =
-"ضع_هنا_رابط_GOOGLE_APPS_SCRIPT_EXEC_القديم";
+const WHATSAPP_NUMBER = "212764885273";
 
-document.getElementById("orderForm")
-.addEventListener("submit", async function(e){
+const APPS_SCRIPT_URL =
+"https://script.google.com/macros/s/AKfycbzFiRVrM8rCLs6JYUOpnUvOb3apleLS8Wj_g-uuhG4066jNabljOiMuGyxbtiB-wAdm/exec";
 
-e.preventDefault();
+const PRODUCT_NAME = "نظارات الواقع الافتراضي IR BOX";
+const PRICE = 180;
 
-const btn=document.getElementById("submitBtn");
-const msg=document.getElementById("message");
+const form = document.getElementById("order");
+const quantity = document.getElementById("quantity");
+const statusBox = document.getElementById("status");
 
-if(SCRIPT_URL.startsWith("ضع_هنا")){
-msg.textContent="يجب ربط Google Sheets أولاً.";
-return;
+function updateTotal(){
+ let qty = Math.max(1, Number(quantity.value) || 1);
+ document.getElementById("total").textContent =
+ "المجموع: " + (PRICE * qty) + " درهم";
 }
 
-btn.disabled=true;
-btn.textContent="جاري إرسال الطلب...";
+quantity.addEventListener("input", updateTotal);
 
-const data={
-name:this.name.value,
-phone:this.phone.value,
-city:this.city.value,
-address:this.address.value,
-product:"نظارات الواقع الافتراضي VR Box",
-price:180,
-quantity:this.quantity.value,
-orderType:"Website"
-};
+form.addEventListener("submit", async function(e){
+ e.preventDefault();
 
-try{
-await fetch(SCRIPT_URL,{
-method:"POST",
-mode:"no-cors",
-headers:{
-"Content-Type":"text/plain;charset=utf-8"
-},
-body:JSON.stringify(data)
+ const name = document.getElementById("name").value.trim();
+ const phone = document.getElementById("phone").value.trim();
+ const city = document.getElementById("city").value.trim();
+ const address = document.getElementById("address").value.trim();
+ const qty = Number(quantity.value);
+
+ if(!name || !phone || !city || !address ||
+ !Number.isInteger(qty) || qty < 1 || qty > 10){
+  statusBox.textContent = "تأكد من جميع المعلومات والكمية.";
+  return;
+ }
+
+ const orderData = {
+  name: name,
+  phone: phone,
+  city: city,
+  address: address,
+  product: PRODUCT_NAME,
+  quantity: qty,
+  price: PRICE * qty,
+  timestamp: new Date().toISOString()
+ };
+
+ const message =
+ "السلام عليكم، بغيت نأكد الطلب من Velora Markit:\n" +
+ "المنتوج: " + PRODUCT_NAME + "\n" +
+ "الثمن للوحدة: " + PRICE + " درهم\n" +
+ "الكمية: " + qty + "\n" +
+ "المجموع: " + (PRICE * qty) + " درهم\n" +
+ "الاسم: " + name + "\n" +
+ "الهاتف: " + phone + "\n" +
+ "المدينة: " + city + "\n" +
+ "العنوان: " + address;
+
+ const whatsappURL = "https://wa.me/" +
+ WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
+
+ statusBox.textContent = "كنوجد الطلب...";
+
+ try{
+  const response = await fetch(APPS_SCRIPT_URL,{
+   method:"POST",
+   headers:{"Content-Type":"text/plain;charset=utf-8"},
+   body:JSON.stringify(orderData)
+  });
+
+  if(!response.ok){
+   throw new Error("تعذر الاتصال بالخدمة");
+  }
+
+  statusBox.textContent =
+  "تم إرسال البيانات للخدمة. غادي يتحل واتساب لتأكيد الطلب.";
+
+ }catch(error){
+  statusBox.textContent =
+  "غادي يتحل واتساب. خاصنا نتأكدو من تسجيل الطلب فالجدول.";
+ }
+
+ window.location.href = whatsappURL;
 });
 
-fbq('track','Lead');
-
-msg.style.color="green";
-msg.textContent="شكراً لك! تم إرسال طلبك بنجاح.";
-
-this.reset();
-
-}catch(error){
-msg.style.color="red";
-msg.textContent="وقع خطأ، المرجو المحاولة مرة أخرى.";
-}
-
-btn.disabled=false;
-btn.textContent="تأكيد الطلب الآن";
-
-});
+updateTotal();
 </script>
 
 </body>
